@@ -1,11 +1,13 @@
 
 #include "core.h"
 #include "semi-circle-immediate-mode.h"
+#include "semi-circle-interleaved.h"
 #include "semi-circle-vertexarray.h"
 #include "texture-quad-immediate.h"
 #include "texture-quad-vertexarray.h"
 #include "texture-quad-interleaved.h"
 #include "arwing.h"
+#include "indexed-semi-circle.h"
 
 using namespace std;
 
@@ -111,13 +113,15 @@ void renderScene()
 	// Clear the rendering window
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+	//drawSemiCircleInterleaved();
 	//drawSemiCircleImmediate();
-	drawSemiCircleVertexArray();
+	//drawSemiCircleVertexArray();
 	//drawTexturedQuadImmediate(playerTexture);
 	//drawTextureQuadVertexArray(playerTexture);
 	//drawTextureQuadInterleaved(playerTexture);
 	//drawArwingImmediate();
 	//drawArwingVertexArray();
+	drawIndexedSemiCircle();
 }
 
 

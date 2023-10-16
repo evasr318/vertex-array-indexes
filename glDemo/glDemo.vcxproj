@@ -138,7 +138,9 @@
     <ClInclude Include="GLFW\glfw3.h" />
     <ClInclude Include="GLFW\glfw3native.h" />
     <ClInclude Include="GL\glew.h" />
+    <ClInclude Include="indexed-semi-circle.h" />
     <ClInclude Include="semi-circle-immediate-mode.h" />
+    <ClInclude Include="semi-circle-interleaved.h" />
     <ClInclude Include="semi-circle-vertexarray.h" />
     <ClInclude Include="texture-quad-immediate.h" />
     <ClInclude Include="texture-quad-interleaved.h" />
@@ -147,9 +149,11 @@
   <ItemGroup>
     <ClCompile Include="arwing.cpp" />
     <ClCompile Include="core.cpp" />
+    <ClCompile Include="indexed-semi-circle.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="semi-circle-immediate-mode.cpp" />
     <ClCompile Include="semi-circle-vertexarray.cpp" />
+    <ClCompile Include="semi-circle-interleaved.cpp" />
     <ClCompile Include="texture-quad-immediate.cpp" />
     <ClCompile Include="texture-quad-interleaved.cpp" />
     <ClCompile Include="texture-quad-vertexarray.cpp" />

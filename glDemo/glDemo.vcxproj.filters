@@ -51,6 +51,12 @@
     <ClInclude Include="arwing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="semi-circle-interleaved.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="indexed-semi-circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -75,6 +81,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="arwing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="semi-circle-interleaved.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="indexed-semi-circle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
